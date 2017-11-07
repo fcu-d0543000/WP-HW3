@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>攝氏溫度轉華氏溫度</title>
+		<script type = "text/javascript">
+			
+			var celsius;
+			var fahrenheit;
+			
+			celsius = window.prompt("請輸入攝氏溫度");
+			
+			celsius = parseFloat(celsius);
+			
+			fahrenheit = change(celsius);
+			
+			document.writeln(celsius + " °C = " + fahrenheit + " ℉");
+				
+			function change(celsius) {
+				return celsius * 9 / 5 + 32;
+			}	
+			
+		</script>
+
+	</head>
+	<body>
+	</body>
+</html>
